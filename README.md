@@ -9,7 +9,7 @@ tcpserver.java - Push driving data from a text file to canClient.java to enable 
 Changes include:
 
 1. Self-driving of steering or user cars : Use tcpserver.java to run autonomous mode.
-The canClient can be enabled from assets/DrivingTasks/Projects/$<projectname>$/settings.xml.
+The canClient can be enabled from assets/DrivingTasks/Projects/"projectname"/settings.xml.
 
 	Set <CANInterface>
 		<enableConnection>false</enableConnection> to true.
