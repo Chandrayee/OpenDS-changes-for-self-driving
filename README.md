@@ -11,8 +11,7 @@ Changes include:
 1. Self-driving of steering or user cars : Use tcpserver.java to run autonomous mode.
 The canClient can be enabled from assets/DrivingTasks/Projects/"projectname"/settings.xml.
 
-	Set <CANInterface>
-		<enableConnection>false</enableConnection> to true.
+	Set CANInterface, enableConnection from false to true.
     
 	Run openDS with this option and tcpserver.java simultaneously.
 
