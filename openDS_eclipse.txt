@@ -1,0 +1,8 @@
+Open Eclipse: create a new java project (any name)
+Delete src.
+Copy assets folder and add to the project
+Right click project -> properties -> java build path -> add external JARS -> get all the jar files (inc. ones inside subfolders) within lib.
+Right click project -> properties -> java build path -> add class folders -> check assets/Textures/logo 
+Right click project -> properties -> java build path -> add class folders -> check JasperReports/log4j
+Right click on the project in explorer and select Build Path->. link source -> select src as the folder (name is src)
+You should make sure all the red crosses are gone and the code is auto-built
