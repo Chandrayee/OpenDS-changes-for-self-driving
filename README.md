@@ -13,7 +13,7 @@ The canClient can be enabled from assets/DrivingTasks/Projects/"projectname"/set
 
 	Set CANInterface, enableConnection from false to true.
     
-	Run openDS with this option and tcpserver.java simultaneously.
+	Run tcpserver.java and then OpenDS with the above option.
 
 2. Access driving data from the moving obstacles in the simulation
 To log new variables from driving tasks modify DataWriter.java under analyzer class in the source code
