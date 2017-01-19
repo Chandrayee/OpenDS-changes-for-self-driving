@@ -15,9 +15,9 @@ The canClient can be enabled from assets/DrivingTasks/Projects/"projectname"/set
     
 	Run tcpserver.java and then OpenDS with the above option.
 
-2. Access driving data from the moving obstacles in the simulation
+2. Access driving data from the moving obstacles in the simulation.
 To log new variables from driving tasks modify DataWriter.java under analyzer class in the source code
 
-3. Making the dashboard appropriate for US driving
+3. Making the dashboard appropriate for US driving.
 Modified PanelCenter.java to add windshield 
 Change speed and RPM display from here during autonomous mode
